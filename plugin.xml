@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
-        id="com.phonegap.phonedialer" version="0.2.0">
+        id="com.phonegap.plugins.phonedialer" version="0.2.0">
     <name>PhoneDialer</name>
     <description>Cordova Phone Dialer</description>
     <license>Apache 2.0</license>
@@ -8,6 +8,7 @@
     <js-module src="www/phonedialer.js" name="phonedialer">
         <clobbers target="phonedialer" />
     </js-module>
+
     <platform name="ios">
         <config-file target="config.xml" parent="/*">
             <feature name="PhoneDialer">

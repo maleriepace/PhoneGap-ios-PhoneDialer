@@ -12,7 +12,7 @@
 @implementation PhoneDialer
 
 // 'number' param may be either an unescaped phone number or a tel: url
-- (void) dialPhone:(CDVInvokedUrlCommand*)command {
+- (void) dial:(CDVInvokedUrlCommand*)command {
     CDVPluginResult* pluginResult = nil;
     NSString* url;
     NSString* number = [command.arguments objectAtIndex:0];

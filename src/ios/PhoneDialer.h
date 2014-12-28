@@ -9,7 +9,7 @@
 
 @interface PhoneDialer : CDVPlugin
 
-- (void) dialPhone:(CDVInvokedUrlCommand*)command;
+- (void) dial:(CDVInvokedUrlCommand*)command;
 
 @end
 
