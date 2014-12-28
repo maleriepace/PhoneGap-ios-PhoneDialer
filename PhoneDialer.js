@@ -1,14 +1,14 @@
-var PhoneDialer = function() {
+var PhoneDialer = function () {
 
 }
 
-PhoneDialer.prototype.dial = function(phnum) {
-    cordova.exec("PhoneDialer.dialPhone", {"number" : phnum });
+PhoneDialer.prototype.dial = function (phnum, error) {
+    cordova.exec(null, error, "PhoneDialer", "dialPhone", [phnum]);
 };
 
-if(!window.plugins) {
+if (!window.plugins) {
     window.plugins = {};
 }
-if(!window.plugins.phoneDialer) {
+if (!window.plugins.phoneDialer) {
     window.plugins.phoneDialer = new PhoneDialer();
 }
