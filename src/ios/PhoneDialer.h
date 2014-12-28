@@ -5,7 +5,6 @@
 //  Copyright (c) 2011 Kohactive. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
 #import <Cordova/CDVPlugin.h>
 
 @interface PhoneDialer : CDVPlugin
