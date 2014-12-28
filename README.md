@@ -10,4 +10,4 @@ window.plugins.phoneDialer.dial('555-555-5555', errorFunction);
 Installation
 ============
 
-cordova add plugin https://github.com/alexbonine/PhoneGap-ios-PhoneDialer.git
+cordova plugin add https://github.com/alexbonine/PhoneGap-ios-PhoneDialer.git
