@@ -1,0 +1,35 @@
+{
+  "name": "com.phonegap.plugins.phonedialer",
+  "version": "2.2.5",
+  "description": "PhoneGap iOS PhoneDialer",
+  "cordova": {
+    "id": "com.phonegap.plugins.phonedialer",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maleriepace/PhoneGap-ios-PhoneDialer.git"
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios",
+    "cordova",
+    "phonegap"
+  ],
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
+    }
+  ],
+  "author": "",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/maleriepace/PhoneGap-ios-PhoneDialer/issues"
+  },
+  "homepage": "https://github.com/maleriepace/PhoneGap-ios-PhoneDialer#readme"
+}
